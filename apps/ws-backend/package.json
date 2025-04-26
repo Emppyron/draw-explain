@@ -1,5 +1,5 @@
 {
-  "name": "http-backend",
+  "name": "ws-backend",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,11 @@
     "dev":"pnpm run build && pnpm run start"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "ws": "^8.18.1"
   },
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
-    "@types/express": "^5.0.1"
+    "@types/ws": "^8.18.1"
   },
   "keywords": [],
   "author": "",
