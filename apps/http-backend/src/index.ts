@@ -2,6 +2,7 @@ import express from 'express';
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from '@repo/backend-common/config';
 import { userMiddleware } from './middleware';
+import {  UserZSchema } from '@repo/common/common'
 const app=express();
 
 app.use(express.json());
