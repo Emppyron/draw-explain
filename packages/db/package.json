@@ -1,5 +1,5 @@
 {
-  "name": "db",
+  "name": "@repo/db",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
      "./client":"./src/index.ts"
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace: *"
+    "@repo/typescript-config": "workspace:*"
   },
   "keywords": [],
   "author": "",

@@ -7,7 +7,7 @@
   },
   
   "exports": {
-    "./common":"./src/index.js"
+    "./common":"./src/types.ts"
   },
   "keywords": [],
   "author": "",
